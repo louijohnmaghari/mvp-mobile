@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>MVP</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+<style>
+.heading::after {
+  content: 'Change Screen Size to 1280px';
+}
+
+  @media screen and (max-width: 1280px){
+    .image-container {
+        max-width: 200px;
+        height: 200px;
+    }   
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .heading::after {
+      content: 'Images size at 1280px below see if the images quality is broken';
+    }
+  }
+</style>
+  <body class="innerPage">
+    <h1 class="heading"></h1>
+    <p>Extra Large Image</p>
+    <div class="image-container">
+      <img src="assets/images/xl-img.jpg" alt="">
+    </div>
+
+    <p>Large Image</p>
+    <div class="image-container">
+      <img src="assets/images/lg-img.jpg" alt="">
+    </div>
+
+    <p>Medium Image</p>
+    <div class="image-container">
+      <img src="assets/images/md-img.jpg" alt="">
+    </div>
+
+    <p>Small Image</p>
+    <div class="image-container">
+      <img src="assets/images/sm-img.jpg" alt="">
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/js/holder.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
