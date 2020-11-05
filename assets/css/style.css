@@ -466,13 +466,16 @@ h1 {
         background-color: #e3e3e3;
         border-radius: 4px;
     }
-    .tablet-30 {
+    .tablet-70 {
         flex: 0 0 70%;
         max-width: 70%;
     }
     .tablet-30 {
         flex: 0 0 30%;
         max-width: 30%;
+    }
+    .site-sidebar nav {
+        background-color: transparent !important;
     }
 }
 @media (max-width: 767px) {
@@ -484,7 +487,7 @@ h1 {
         margin: 0 0 0 auto;
         position: absolute;
         right: 0;
-        top: -50px;
+        top: -70px;
         z-index: 1;
     }
     .navbar-toggler.collapsed {
@@ -497,7 +500,25 @@ h1 {
         flex: 0 0 50%;
         max-width: 50%;
     }
-
+    .singleprod-rightbar-cont p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 640px) {
+    .tablet-70 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .tablet-30 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .small-order-3 {
+        order: 3;
+    }
+    .small-order-1 {
+        order: 1;
+    }
 }
 @media (max-width: 440px) {
     #hero-banner {
@@ -535,6 +556,10 @@ h1 {
     }
     .blurb.hover-trig:hover .view-more {
         padding-top: 28%;
+    }
+     
+    .site-sidebar {
+        top: -72px;
     }
 }
 @media (max-width: 320px) {
